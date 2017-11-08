@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>vue_demo</title>
+  </head>
+  <body>
+    <div id="app">
+        <div><input v-model="mod" type="text" placeholder="mod"></div>
+        <div><input v-model="func" type="text" placeholder="func"></div>
+        <div><input v-model="content" type="text" placeholder="content"></div>
+        <div><input v-model="own" type="text" placeholder="own"></div>
+        <div><a href="javascript:void(0);" @click="setDebugLog">SetDebugLog</a></div>
+        <div>
+            {{info}}
+        </div>
+    </div>
+  </body>
+</html>
